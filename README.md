@@ -38,6 +38,9 @@ To bypass the 100,000-row limit of the UN Statistics Database, the project utili
 
 The analysis distinguishes between absolute volume and **adoption velocity**. By calculating the 5-year average annual growth rate, this study identifies "frontier markets" that are leapfrogging traditional fossil fuel infrastructure.
 
+<img width="1158" height="707" alt="image" src="https://github.com/user-attachments/assets/7941a89f-1293-40f1-9fee-c15cbe594241" />
+
+
 ### 2. Market Segmentation (K-Means Clustering)
 
 The world is grouped into four distinct "energy tribes" using unsupervised machine learning.
@@ -45,11 +48,16 @@ The world is grouped into four distinct "energy tribes" using unsupervised machi
 * **Feature Engineering:** Mapping Renewable % against Total Grid Size.
 * **Normalization:** Applied a **logarithmic scale** (`Log1p`) to total grid sizes to allow for balanced comparisons between global superpowers and emerging markets on a single visualization.
 
+<img width="1001" height="630" alt="image" src="https://github.com/user-attachments/assets/a0e45a30-4a7a-4db2-915c-b95d3a655fa9" />
+
+
 ### 3. Forecasting the UK’s 2030 Horizon
 
 Projected the UK's wind energy output using **Holt-Winters Exponential Smoothing**.
 
 * **Model Configuration:** Selected an **Additive Trend** model to account for the compounding nature of the UK's wind infrastructure growth rather than a simple linear regression.
+
+<img width="880" height="552" alt="image" src="https://github.com/user-attachments/assets/555b45c0-5df5-4a35-b628-ea2c79807a94" />
 
 ---
 
